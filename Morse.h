@@ -13,7 +13,7 @@
 class Morse
 {
   public:
-    Morse(int pin);
+    explicit Morse(int pin);
     void dot();
     void dash();
   private:
